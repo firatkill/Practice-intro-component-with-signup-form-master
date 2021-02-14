@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+#container {
+  background-image: url(./images/bg-intro-desktop.png);
+  background-color: hsl(0, 100%, 74%);
+  background-size: cover;
+
+  padding: 14.5vh 5rem;
+}
+#buttoncontainer {
+  background: white;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 3px 20px black;
+}
+#textcol {
+  margin-top: auto;
+  margin-bottom: auto;
+  color: white;
+}
+#textcol h1 {
+  width: 75%;
+  font-weight: 600;
+}
+#textcol p {
+  margin-top: 2rem;
+  width: 90%;
+}
+
+#buttoncontainer input,
+button {
+  height: 3rem;
+  width: 100%;
+  border-radius: 5px;
+}
+#buttoncontainer div {
+  margin-top: 2.5rem;
+}
+#buttoncontainer div {
+  text-align: center;
+}
+#buttoncontainer input {
+  margin-top: 2rem;
+  padding: 0 1.5rem;
+  outline: none;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+#buttoncontainer input:focus {
+  border: 2px solid hsl(249, 10%, 26%);
+}
+#small {
+  opacity: 0.8;
+  margin-top: 1rem;
+}
+#small a {
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  opacity: 1;
+}
+#claim {
+  margin-bottom: 0.5rem;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-weight: 500;
+  opacity: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#claim:active {
+  outline: none;
+  border: 2px solid hsl(249, 10%, 26%);
+  opacity: 0.5;
+}
+#trialbutton {
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 2px 4px 10px rgb(49, 49, 49);
+  color: white;
+  font-weight: 400;
+}
+#trialbutton span {
+  font-weight: 600;
+}
+#buttoncol {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#small1 {
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+  position: absolute;
+  right: 50px;
+  top: 175px;
+}
+#small2 {
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+  position: absolute;
+  top: 255px;
+  right: 50px;
+}
+#small3 {
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+  position: absolute;
+  right: 50px;
+  top: 335px;
+}
+#small4 {
+  font-style: italic;
+  color: hsl(0, 100%, 74%);
+  position: absolute;
+  right: 50px;
+  top: 415px;
+}
+
+#img1 {
+  position: absolute;
+  right: 60px;
+  top: 135px;
+  width: 2rem;
+}
+#img2 {
+  position: absolute;
+  right: 60px;
+  top: 215px;
+  width: 2rem;
+}
+#img3 {
+  position: absolute;
+  right: 60px;
+  top: 295px;
+  width: 2rem;
+}
+#img4 {
+  position: absolute;
+  right: 60px;
+  top: 375px;
+  width: 2rem;
+}
